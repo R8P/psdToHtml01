@@ -1,0 +1,217 @@
+/* COMMON SECTION */
+
+body{font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.3em; font-weight: 400;}
+p{font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.3em; font-weight: 400; }
+h1, h2, h3, h4, h5, h6{font-family: 'Anton', sans-serif; line-height: 1.3em; font-weight: 400;}
+a{transition: 0.5s; text-decoration: none;}
+
+/* HEADER SECTION  */
+#headerSection{background: #fff; position: relative; z-index:1;}
+#headerSection::after{content:''; position: absolute; top:10px;  height: 140%; width: 100%; z-index: -1;background: url(/img/menu-bg.png); background-size: cover; background-repeat: no-repeat; background-position: center;}
+
+#headerSection img{margin-left: 74px; margin-top: 31px;}
+#headerSection ul{list-style:none;}
+#headerSection ul li{padding-right: 60px;}
+#headerSection li a{color: #54524f;text-transform: uppercase;}
+#headerSection ul li i{display: inline-block; border: 1px solid #54524f; border-radius:50px 50px 50px 50px; padding: 12px 55px; margin-left: 125px;}
+#headerSection ul li i:hover{background-color: #54524f; color: #fff; transition: 0.5s;}
+
+/* MAIN SECTION */
+#mainSection{padding-bottom: 300px; background-image: url(/img/header_image.png); position: relative; z-index: 0; background-repeat: no-repeat; background-size: cover; background-position: center;}
+#mainSection .mainTitle{margin-left: 74px; padding-top:130px ;}
+#mainSection h1{font-size: 100px; color: #deb37e; margin-bottom: 20px;}
+#mainSection h4{font-size: 27px; color: #686663; letter-spacing: .25em; font-style: italic; margin-bottom: 60px;}  
+#mainSection p{font-size: 20px;}
+#mainSection .mainButton{border:1px solid #fff; border-radius: 50px; font-size: 25px; padding: 12px 55px; color: #776c64; font-weight: 800;margin-bottom: 25px;}
+#mainSection .mainButton:hover{cursor: pointer; border-color:#776c64 ; background-color: #776c64; color: #fff; transition: 0.5s;}
+#mainSection p{color: #776c64; font-size: 20px; margin-bottom: 0;}
+
+/* LETS GO SECTION  */
+#letsgoSection::before{content:''; position: absolute; top: 1000px; height: 46%; width: 100%; z-index: 0;background: url(/img/main-bg.png); background-size: cover; background-repeat: no-repeat; background-position: center;}
+#letsgoSection{background-image: url(/img/lets_golge.png); background-repeat: no-repeat; background-size: cover; background-position: top; margin-top: 100px; padding-bottom: 184px;}
+#letsgoSection .letsgoTitle{text-align: center; margin-bottom: 70px;}
+#letsgoSection .card{border: none;}
+#letsgoSection h1{color: #deb37e; letter-spacing: .25em; font-size: 50px; font-weight: 900;}
+#letsgoSection  p{margin-bottom: 0; color: #776c64;}
+#letsgoSection .card-body{background: #7f7770; padding-bottom: 60px; padding-top: 60px;}
+#letsgoSection .card-body h5{color: #fff; letter-spacing: .1em; padding-bottom: 5px;}
+#letsgoSection .card-text{color: #fff;}
+#letsgoSection .showMore{margin:60px auto 0 auto;}
+#letsgoSection .letsgoButton{ background: #7f7770; border:1px solid #7f7770; border-radius: 50px; font-size: 25px; padding: 12px 55px; color: #fff; font-weight: 900;}
+#letsgoSection .letsgoButton h5{padding:0; margin:0; letter-spacing: .2em;}
+#letsgoSection .letsgoButton:hover{cursor: pointer; border-color:#7f7770 ; background-color: #fff; color: #7f7770; transition: 0.5s;}
+
+/* DISCOUNT SECTION AREA */
+#discountSection img{width: 100%;}
+#discountSection .right{background: #7f7771; padding-top: 15%}
+#discountSection .left{background: #deb37e; padding-top: 15%;}
+#discountSection .right-title, .left-title{padding-left: 65px;}
+#discountSection .right h2, .left h2{color: #fff; letter-spacing: .1em;}
+#discountSection .right p, .left p{ font-size: 16px; color: #fff; margin-bottom: 0;}
+#discountSection .readMore{ background: #e2a355; border:1px solid #e2a355; border-radius: 50px; font-size: 25px; padding: 12px 55px; color: #fff; font-weight: 500; margin-top: 60px;}
+#discountSection .readMore:hover{cursor: pointer; border-color:#c57b20 ; background-color: #c57b20; color: #fff; transition: 0.5s;}
+#discountSection .readMore h5{padding:0; margin:0; letter-spacing: .2em;}
+
+/* EXPLORE SECTION */
+#exploreSection .hiking{position: relative; z-index: -1; height: 767px; background-image: url(/img/lets_golge.png); background-color:rgba(127, 119, 113, 0.8); background-repeat: no-repeat; background-size: cover; background-position: center; padding-top: 330px;}
+#exploreSection h2{color: #fff; letter-spacing: .1em; font-size: 50px; margin-bottom: 50px;}
+#exploreSection p{color: #fff; font-size: 18px;}
+#exploreSection .explore{position: relative; z-index: -999;height: 1115px; background-image: url(/img/explore-bg.png); background-repeat: no-repeat; background-size: cover; background-position: center; }
+#exploreSection .exploreTitle{text-align: right; margin:450px 100px;}
+#exploreSection .exploreTitle h1{letter-spacing: .1em; font-size: 85px; font-style: italic; text-shadow: 6px -3px 5px #868686;}
+#exploreSection .part1{color: #deb37e;}
+#exploreSection .part2{color: #54524f;}
+#exploreSection .hiking::before{content:''; position: absolute; top: -50px; height: 37%; width: 100%; z-index: 1;background: url(/img/hiking1.png); background-size: cover; background-repeat: no-repeat; background-position: center;}
+#exploreSection .hiking::after{content:''; position: absolute; top: 670px; height: 56%; width: 100%; z-index: 1;background: url(/img/hiking2.png); background-size: cover; background-repeat: no-repeat; background-position: center;}
+
+/* QUOTATION SECTION */
+#quotationSection {position: relative; z-index: 1;  background-image: url(/img/golge-right.png); background-repeat: no-repeat; background-position: right; padding-top: 180px; padding-bottom: 100px;}
+#quotationSection .info{margin-bottom:200px;}
+#quotationSection .info h4{color: #e2a355; margin-bottom: 39px; letter-spacing: .1;}
+#quotationSection .info p{color:#776c64; font-size: 18px;}
+#quotationSection .quote {text-align: center;}
+#quotationSection .quote i{font-size: 35px; margin-bottom: 50px; color: #3f3f3f;}
+#quotationSection .quote p{color:#3f3f3f; margin-bottom: 66px; font-size: 20px; font-weight: 400;}
+#quotationSection .quote span{margin-bottom:100px; font-size: 15px; font-weight: 900; color:#3f3f3f}
+#quotationSection::before{content:''; position: absolute; top: -144px; height: 37%; width: 100%; z-index: 0;background: url(/img/quote1.png); background-size: cover; background-repeat: no-repeat; background-position: center;}
+#quotationSection::after{content:''; position: absolute; top: 705px; height: 37%; width: 100%; z-index: -1;background: url(/img/quote2.png); background-size: cover; background-repeat: no-repeat; background-position: center;}
+
+/* SUBSCRIBE SECTION */
+#subscribeSection{background: #deb37e; padding-top: 230px; padding-bottom: 220px; position: relative; z-index: 0;}
+#subscribeSection .row{text-align: center;}
+#subscribeSection h1{color: #fff; letter-spacing: .2em; margin-bottom:75px; font-size: 60px;}
+#subscribeSection p{padding-bottom: 85px; font-size: 15px;}
+#subscribeSection .mail{border:1px solid #fff; border-radius: 50px 50px; padding:15px 310px; position: relative;}
+#subscribeSection .subscribe::after{content: 'Subscribe'; z-index: 1; display:inline-block; color: #fff; background: #54524f; border:1px solid #54524f; border-radius: 50px 50px; padding:15px 80px; position: absolute; right: 95px;}
+#subscribeSection::after{content:''; position: absolute; top: 680px; height: 37%; width: 100%; z-index: -1;background: url(/img/sub2.png); background-size: cover; background-repeat: no-repeat; background-position: center;}
+
+/* FOOTER SECTION */
+#footerSection{padding-top: 340px; padding-bottom: 240px; background: #7f7770;}
+#footerSection .container-fluid{padding-left: 80px;}
+#footerSection h3{color: #fff; font-size: 30px; letter-spacing: .2em;}
+#footerSection p{color:#fff; font-size: 16px;}
+#footerSection .instagram, .facebook, .twitter, .whatsapp{display: inline-block; margin-right: 10px;}
+#footerSection .footer-right{text-align: left;}
+#footerSection .footer-right h3{color: #fff; font-size: 30px; letter-spacing: .2em;}
+#footerSection .footer-right ul{list-style: none; color: #fff; font-size:16px; padding: 5px 0;}
+#footerSection .footer-right ul li{padding: 5px 0;}
+#footerSection .footer-right ul li a{text-decoration: none; color: #fff;}
+#footerSection .footer-right ul li a:hover{color: #deb37e;}
+
+
+/* MEDIA QUERIES */
+@media only screen and (min-width:200px) and (max-width:768px){
+   
+    /* HEADER */
+    #headerSection{height: 80px;}
+    #headerSection .navbar-brand{display:none;}
+    #headerSection .nav-item i{display:none;}
+
+    /* MAIN */
+    #mainSection .mainTitle{margin-left: 2%;}
+    #mainSection h1{font-size: 50px; color: #deb37e;}
+    #mainSection h4{font-size: 20px;}
+    #mainSection p{display: none;}
+    #mainSection .mainButton{border-color:#776c64;  background-color: #776c64; color: #fff; font-size: 13px; padding: 6x 25px;}
+    #mainSection .mainButton:hover{border-color:#c57b20 ; background-color: #c57b20; color: #fff;}
+    #mainSection p{font-size: 15px;}
+
+    /* LETSGO */
+    #letsgoSection::before{top: 780px;}
+
+    /* DISCOUNT */
+    #discountSection .right, .left{text-align: center;}
+    #discountSection .right-title, .left-title{padding-left:0; padding-bottom: 10%;}
+    #discountSection .left{order:2;}
+    #discountSection .rightImg{order: 1;}
+
+    /* EXPLORE */
+    #exploreSection .hiking::before{top: -50px; height: 20%;}
+    #exploreSection .hiking::after{top: 550px; height: 36%;}
+    #exploreSection .explore{height: 800px;}
+    #exploreSection .explore h1{font-size: 70px;}
+    #exploreSection .hiking{padding-top: 200px;}
+    #exploreSection .exploreTitle{text-align: center; margin:20% 0;}
+
+    /* QUOTATION */
+    #quotationSection::after{top: 750px;}
+    #quotationSection h4{text-align: center;}
+    #quotationSection{padding-top: 100px; padding-bottom: 50px;}
+    #quotationSection .info{margin-bottom:100px;}
+
+    /* SUBSCRIBE */
+    #subscribeSection::after{top: 570px; height: 37%; }
+    #subscribeSection{padding-top: 130px; padding-bottom: 200px; }
+    #subscribeSection .mail{padding:15px 150px;}
+    #subscribeSection .subscribe::after{padding:15px 40px; right: 15px;}
+
+    /* FOOTER */
+    #footerSection{padding-top: 150px; padding-bottom: 30px;}
+    #footerSection .container-fluid{padding-right:20px; padding-left: 20px;}
+    #footerSection .col-md-4{text-align: center; margin-bottom: 60px;}
+    #footerSection .footer-right{text-align: center;}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    /* HEADER */
+    #headerSection{height: 80px;}
+    #headerSection ul li{padding-right: 30px;}
+    #headerSection .navbar-brand{display:none;}
+    #headerSection .nav-item i{display:none;}
+    
+    /* MAIN */
+    #mainSection h1{font-size: 80px;}
+    #mainSection h4{font-size: 23px;}  
+    #mainSection .mainButton{font-size: 18px; padding: 8px 35px;}
+    #mainSection p{font-size: 15px;}
+
+    /* LETSGO */
+    #letsgoSection::before{top: 880px;}
+    #letsgoSection .letsgoButton{font-size: 20px; padding: 8px 35px;}
+
+    /* DISCOUNT */
+    #discountSection .right p, .left p{ font-size: 14px;}
+    #discountSection .readMore{padding: 8px 35px; margin-top: 40px;}
+    #discountSection .readMore h5{font-size: 14px;}
+
+    /* EXPLORE */
+    #exploreSection .exploreTitle{margin:500px 0;}
+    #exploreSection .exploreTitle h1{font-size: 55px;}
+      
+    /* QUOTATION */
+    #quotationSection::after{top: 670px;}
+    #quotationSection{padding-top: 40px; padding-bottom: 20px; }
+    #quotationSection .info{margin-bottom: 100px;}
+    
+    /* SUBSCRIBE */
+    #subscribeSection .mail{padding:15px 250px;}
+    #subscribeSection .subscribe::after{padding:15px 60px; right: 35px;}
+
+    /* FOOTER */
+    #footerSection .container-fluid{padding: 20px;}
+    #footerSection .col-md-2 h3{font-size: 22px;}
+    #footerSection .col-md-4 h3{font-size: 22px;}
+    #footerSection .col-md-4 p{font-size: 14px;}
+    #footerSection .col-md-2 ul{font-size: 14px;}
+}
+
+@media only screen and (min-width:993px) and (max-width:1440px){
+
+    /* HEADER */
+    #headerSection ul li{padding-right: 30px;}
+
+    /* SUBSCRIBE */
+    #subscribeSection .mail{padding:15px 350px;}
+    #subscribeSection .subscribe::after{padding:15px 70px; right: 50px;}
+
+    /* QUOTATION */
+    #quotationSection .info{margin-bottom:50px;}
+
+    /* EXPLORE */
+    #exploreSection .exploreTitle{margin:550px 50px;}
+    #exploreSection .exploreTitle h1{font-size: 75px;}
+
+    /* FOOTER */
+    #footerSection .container-fluid{padding-right: 25px; padding-left: 25px;}
+}
